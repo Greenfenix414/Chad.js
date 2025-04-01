@@ -1,5 +1,5 @@
 let chad;
 let mudkip = 'https://i.imgur.com/fhH81bf.png';
-p5.prototype.loadChad = function(){
+function loadChad(){
  chad = loadImage(mudkip);
 };
