@@ -4,4 +4,5 @@ push()
  noStroke()
  circle(x,y,size)
  triangle(x,y-size,x-size,y,x+size,y)
+ pop()
 };
