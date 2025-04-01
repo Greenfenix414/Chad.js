@@ -1,4 +1,4 @@
-function drawSymbol(x,y,size){
+p5.prototype.drawSymbol = function (x,y,size){
 push()
  fill("green")
  noStroke()
