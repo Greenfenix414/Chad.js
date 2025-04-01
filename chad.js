@@ -1,5 +1,7 @@
-let chad;
-let mudkip = 'https://i.imgur.com/fhH81bf.png';
-function loadChad(){
- chad = loadImage(mudkip);
+function drawSymbol(x,y,size){
+push()
+ fill("green")
+ noStroke()
+ circle(x,y,size)
+ triangle(x,y-size,x-size,y,x+size,y)
 };
